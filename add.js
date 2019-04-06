@@ -17,6 +17,9 @@ const myObj = {
     createUser: function(){
         const user = {firstName:'Rukee', lastName: 'Ojigbo'}
         return user;
+    },
+    lessOrGreater: function(load1,load2){
+        return load1 + load2;
     }
 }
 

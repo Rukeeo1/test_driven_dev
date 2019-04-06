@@ -23,3 +23,9 @@ test('should be falsy', function(){
 test('should return Rukee\'s Object', function(){
     expect(add.createUser()).toEqual({firstName: 'Rukee', lastName: 'Ojigbo'});
 });
+
+test('should be less than 1600', function(){
+    expect(add.lessOrGreater(800,700)).toBeLessThan(1600);
+});
+
+// test('should be gre')
