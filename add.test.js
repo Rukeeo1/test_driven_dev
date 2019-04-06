@@ -36,3 +36,9 @@ test('should be greater than 1200', function(){
 test('should not contain I', function(){
     expect('team').not.toMatch(/I/i)
 });
+
+test('testing for Arrays', function(){
+    const users = ['rukee', 'seyi','admin'];
+    expect(users).toContain('ejiro');
+});
+
