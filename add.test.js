@@ -28,4 +28,11 @@ test('should be less than 1600', function(){
     expect(add.lessOrGreater(800,700)).toBeLessThan(1600);
 });
 
-// test('should be gre')
+test('should be greater than 1200', function(){
+    expect(add.lessOrGreater(200,1100)).toBeGreaterThan(1200);
+});
+
+//test for regex
+test('should not contain I', function(){
+    expect('team').not.toMatch(/I/i)
+});
