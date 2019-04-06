@@ -16,4 +16,10 @@ test('shoul return null', ()=>{
 
 test('should be falsy', function(){
     expect(add.checkValue(undefined)).toBeFalsy();
+    expect(add.checkValue(0)).toBeFalsy();
+    expect(add.checkValue(null)).toBeFalsy();
+});
+
+test('should return Rukee\'s Object', function(){
+    expect(add.createUser()).toEqual({firstName: 'Rukee', lastName: 'Ojigbo'});
 });

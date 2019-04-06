@@ -13,6 +13,10 @@ const myObj = {
     },
     checkValue: function(x){
         return x;
+    },
+    createUser: function(){
+        const user = {firstName:'Rukee', lastName: 'Ojigbo'}
+        return user;
     }
 }
 
