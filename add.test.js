@@ -13,3 +13,7 @@ test('adds 2 + 2 to NOT equal 5', ()=>{
 test('shoul return null', ()=>{
     expect(add.isNull()).toBe(null);
 });
+
+test('should be falsy', function(){
+    expect(add.checkValue(undefined)).toBeFalsy();
+});

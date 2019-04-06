@@ -10,6 +10,9 @@ const myObj = {
     },
     isNull: function(){
         return null;
+    },
+    checkValue: function(x){
+        return x;
     }
 }
 
