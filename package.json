@@ -1,0 +1,14 @@
+{
+  "name": "add_tdd",
+  "version": "1.0.0",
+  "description": "a program to test addtion",
+  "main": "add.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
