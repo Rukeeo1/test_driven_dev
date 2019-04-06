@@ -9,3 +9,7 @@ test('adds 2 + 2 to NOT equal 5', ()=>{
     //negating the test
     expect(add.add(2,2)).not.toBe(5);
 });
+
+test('shoul return null', ()=>{
+    expect(add.isNull()).toBe(null);
+});

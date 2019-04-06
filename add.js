@@ -7,9 +7,12 @@
 const myObj = {
     add: function(num1,num2){
         return num1 + num2;
+    },
+    isNull: function(){
+        return null;
     }
 }
 
 module.exports = myObj;
-console.log(module)
+// console.log(module)
 
